@@ -23,8 +23,7 @@ jobs:
     # runs-on 則是指定要運行的環境（github內部建立），這個專案是使用 ubuntu
     runs-on: ubuntu-latest
   steps:
-    # 其中的 uses 字段可以直接使用其他開發者寫好並發佈的 actions，以上圖中的 actions/checkout@v2 為例，其實就是直接使用這個 action，所做的是在剛剛 run on 字段指定的 ubuntu 執行環境中抓取我們專案的程式碼（畢竟原本的執行環境就是一台空空的虛擬主機而已）
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     - run: yarn
     - run: yarn run build
 
