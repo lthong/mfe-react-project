@@ -5,7 +5,7 @@
 Please run these projects and open the borwser with url localhost:8082 to check out the output of contanier project.
 
 
-#### marketing project Setup
+#### service1 project Setup
 ```
 yarn
 yarn start
